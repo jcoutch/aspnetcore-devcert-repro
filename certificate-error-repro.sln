@@ -1,0 +1,31 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 16
+VisualStudioVersion = 16.0.28729.10
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "certificate-error-repro", "certificate-error-repro\certificate-error-repro.csproj", "{E34B82ED-613C-45EE-9AE7-0A9E5788D20C}"
+EndProject
+Project("{E53339B2-1760-4266-BCC7-CA923CBCF16C}") = "docker-compose", "docker-compose.dcproj", "{4E4ABB64-BBC2-412C-94F9-16D3AEE09C0D}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{E34B82ED-613C-45EE-9AE7-0A9E5788D20C}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{E34B82ED-613C-45EE-9AE7-0A9E5788D20C}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{E34B82ED-613C-45EE-9AE7-0A9E5788D20C}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{E34B82ED-613C-45EE-9AE7-0A9E5788D20C}.Release|Any CPU.Build.0 = Release|Any CPU
+		{4E4ABB64-BBC2-412C-94F9-16D3AEE09C0D}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{4E4ABB64-BBC2-412C-94F9-16D3AEE09C0D}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{4E4ABB64-BBC2-412C-94F9-16D3AEE09C0D}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{4E4ABB64-BBC2-412C-94F9-16D3AEE09C0D}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {B112ACB2-6109-421D-83CB-6C44A8478B46}
+	EndGlobalSection
+EndGlobal

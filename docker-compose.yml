@@ -1,0 +1,8 @@
+version: '3.4'
+
+services:
+  certificate-error-repro:
+    image: ${DOCKER_REGISTRY-}certificateerrorrepro
+    build:
+      context: .
+      dockerfile: certificate-error-repro/Dockerfile
